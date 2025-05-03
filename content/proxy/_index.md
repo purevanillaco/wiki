@@ -1,7 +1,6 @@
 # Proxy
 
-{{% hint info %}}
-### Etiquette
+{{% hint warn %}}
 When the server is being hit with a **DDoS attack**, only a specific **proxy** may be affected by it. This means, sending 'lag' or similar messages on chat may be annoying for the rest of the players that are not experiencing any issues, or that are just trying to bear it patiently (it's usually a matter of minutes).
 
 We would appreciate if such messages could be avoided in-game and on the **Discord server**, unless you believe a **downtime longer than 5 minutes** is underway, in which case opening a **ticket** on the **Discord server** (again, please avoid using #general) would be the most efficient way to notify server administrators to take a look into the issue.
@@ -51,4 +50,4 @@ This also means using any ``*.purevanilla.co`` will result in the exact same **p
 **Forced connection** is not advised nor maintained via domains by design, as offering forced locations via domain could become a **security flaw** for malicious actors trying to target a specific **proxy** for a **DDoS attack**. 
 
 ## DDoS mitigation
-All our providers have **DDoS mitigation services** which we are using, but **PureVanilla** has grown so popular certain attacks may be able to temporarily affect the connection to some of the proxies. These attacks are usually detected within minutes and the server is usually back online in a couple minutes. If it isn't, **relogging every 5 minutes** may improve your connection due to the **location resolution algorithm** described below.
+All our providers have **DDoS mitigation services** which we are using, but **PureVanilla** has grown so popular certain attacks may be able to temporarily affect the connection to some of the proxies. These attacks are usually detected within minutes and the server is usually back online in a couple minutes. If it isn't, **relogging every 5 minutes** may improve your connection due to the **location resolution algorithm** described above.
