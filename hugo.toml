@@ -71,6 +71,11 @@ disableKinds = ['taxonomy']
   # (Optional, experimental, default false) Enables service worker that caches visited pages and resources for offline use.
   BookServiceWorker = true
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 [module]
 [[module.imports]]
 path = 'github.com/alex-shpak/hugo-book'
