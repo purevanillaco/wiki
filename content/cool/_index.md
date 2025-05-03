@@ -1,5 +1,4 @@
 +++
-title = "cool"
+date = '2025-05-03T12:32:29+02:00'
+title = 'Cool'
 +++
-
-Welcome to the Cool section!
