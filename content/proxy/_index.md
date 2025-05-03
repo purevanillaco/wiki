@@ -1,6 +1,6 @@
 # Proxy
 
-{{% hint warn %}}
+{{% hint info %}}
 When the server is being hit with a **DDoS attack**, only a specific **proxy** may be affected by it. This means, sending 'lag' or similar messages on chat may be annoying for the rest of the players that are not experiencing any issues, or that are just trying to bear it patiently (it's usually a matter of minutes).
 
 We would appreciate if such messages could be avoided in-game and on the **Discord server**, unless you believe a **downtime longer than 5 minutes** is underway, in which case opening a **ticket** on the **Discord server** (again, please avoid using #general) would be the most efficient way to notify server administrators to take a look into the issue.
