@@ -1,5 +1,14 @@
 # Proxy
 
+{{% hint info %}}
+### Etiquette
+When the server is being hit with a **DDoS attack**, only a specific **proxy** may be affected by it. This means, sending 'lag' or similar messages on chat may be annoying for the rest of the players that are not experiencing any issues, or that are just trying to bear it patiently (it's usually a matter of minutes).
+
+We would appreciate if such messages could be avoided in-game and on the **Discord server**, unless you believe a **downtime longer than 5 minutes** is underway, in which case opening a **ticket** on the **Discord server** (again, please avoid using #general) would be the most efficient way to notify server administrators to take a look into the issue.
+
+Additionally, not sending any reports via **#tickets** may result in server administrators not knowing about the issue, and never fixing it. A **#ticket** in this scenario would be appreciated so we can swiftly solve any ongoing connection issues.
+{{% /hint %}}
+
 {{% details "General Description" open %}}
 ## What is it
 A **proxy** routes your connection to the end servers running **PureVanilla**, instead of connecting you directly to the server running **PureVanilla**.
@@ -43,12 +52,3 @@ This also means using any ``*.purevanilla.co`` will result in the exact same **p
 
 ## DDoS mitigation
 All our providers have **DDoS mitigation services** which we are using, but **PureVanilla** has grown so popular certain attacks may be able to temporarily affect the connection to some of the proxies. These attacks are usually detected within minutes and the server is usually back online in a couple minutes. If it isn't, **relogging every 5 minutes** may improve your connection due to the **location resolution algorithm** described below.
-
-{{% hint info %}}
-### Etiquette
-When the server is being hit with a **DDoS attack**, only a specific **proxy** may be affected by it. This means, sending 'lag' or similar messages on chat may be annoying for the rest of the players that are not experiencing any issues, or that are just trying to bear it patiently (it's usually a matter of minutes).
-
-We would appreciate if such messages could be avoided in-game and on the **Discord server**, unless you believe a **downtime longer than 5 minutes** is underway, in which case opening a **ticket** on the **Discord server** (again, please avoid using #general) would be the most efficient way to notify server administrators to take a look into the issue.
-
-Additionally, not sending any reports via **#tickets** may result in server administrators not knowing about the issue, and never fixing it. A **#ticket** in this scenario would be appreciated so we can swiftly solve any ongoing connection issues.
-{{% /hint %}}
