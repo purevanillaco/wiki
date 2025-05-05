@@ -33,9 +33,9 @@ We continuously add and remove **locations** based on server popularity all arou
 |Country|Region|City|IP|Count  |
 |--|--|--|--|--|
 |🇩🇪 DE| Central | Frankfurt | ``eu.purevanilla.co`` | 2 |
-|🇺🇸 US| Central | Dallas | ``us.purevanilla.co`` ``central.us.purevanilla.co`` | 1 |
-|🇺🇸 US| West | Hillsboro | ``us.purevanilla.co`` ``west.us.purevanilla.co`` | 2 |
-|🇺🇸 US| East | Vint Hill / Ashburn | ``us.purevanilla.co`` ``east.us.purevanilla.co`` | 1 |
+|🇺🇸 US| Central | Dallas | ``us.purevanilla.co``<br>``central.us.purevanilla.co`` | 1 |
+|🇺🇸 US| West | Hillsboro | ``us.purevanilla.co``<br>``west.us.purevanilla.co`` | 2 |
+|🇺🇸 US| East | Vint Hill / Ashburn | ``us.purevanilla.co``<br>``east.us.purevanilla.co`` | 1 |
 |🇦🇺 AU| Australia | Sydney | ``au.purevanilla.co`` | 1 |
 |🇸🇬 SG| Southeast Asia | Singapore | ``sg.purevanilla.co`` | 1 |
 
