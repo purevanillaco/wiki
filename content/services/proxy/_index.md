@@ -24,17 +24,20 @@ In addition to the **reliability improvements** commented above, we host multipl
 {{% /details %}}
 
 ## Location list
+{{% hint warning %}}
+Please, keep the default ``play.purevanilla.co`` address (or other ``*.purevanilla.co`` addresses not listed below) on your server list, and avoid sharing forced addresses with other players, without advicing them of the __consequences__.
+- We might decide to drop support for any given location at any time, causing that IP to stop working
+- Forced locations do not support failover, meaning, if that location is down, a healthy location won't be provided (giving worse results than the default IP)
+{{% /hint %}}
 We continuously add and remove **locations** based on server popularity all around the world.
-|Country|Region|City|Provider|Count  |
+|Country|Region|City|IP|Count  |
 |--|--|--|--|--|
-|🇩🇪 **DE**| **Central** | **Frankfurt** | **OVH** | 2 |
-|🇺🇸 **US**| **Central** | **Dallas** | **Linode** | 1 |
-|🇺🇸 **US**| **West** | **Hillsboro** | **OVH** | 1 |
-|🇺🇸 **US**| **West** | **Hillsboro** | **Hetzner** | 1 |
-|🇺🇸 **US**| **East** | **Vint Hill** | **OVH** | 1 |
-|🇺🇸 **US**| **East** | **Ashburn** | **Hetzner** | 1 |
-|🇦🇺 **AU**| **Australia** | **Sydney** | **OVH** | 1 |
-|🇸🇬 **SG**| **Southeast Asia** | **Singapore** | **OVH** | 1 |
+|🇩🇪 DE| Central | Frankfurt | ``eu.purevanilla.co`` | 2 |
+|🇺🇸 US| Central | Dallas | ``us.purevanilla.co`` ``central.us.purevanilla.co`` | 1 |
+|🇺🇸 US| West | Hillsboro | ``us.purevanilla.co`` ``west.us.purevanilla.co`` | 2 |
+|🇺🇸 US| East | Vint Hill / Ashburn | ``us.purevanilla.co`` ``east.us.purevanilla.co`` | 1 |
+|🇦🇺 AU| Australia | Sydney | ``au.purevanilla.co`` | 1 |
+|🇸🇬 SG| Southeast Asia | Singapore | ``sg.purevanilla.co`` | 1 |
 
 You can consult their **status** and precise **location** from our [**status page**](https://purevanilla.co/status).
 
@@ -47,7 +50,7 @@ This means, if you **relog 5 minutes after first logging in**, you may or may no
 This also means using any ``*.purevanilla.co`` will result in the exact same **performance** and **balancing algorithm** (AKA ``b.purevanilla.co`` or ``b.purevanilla.co`` will have no performance difference whatsoever).
 
 ## Forced connection
-**Forced connection** is not advised nor maintained via domains by design, as offering forced locations via domain could become a **security flaw** for malicious actors trying to target a specific **proxy** for a **DDoS attack**. 
+**It is not advised** to use or share with anyone a forced location IP, as the automatic IP ``play.purevanilla.co`` will ensure the best possible connection is always achieved in most of the cases. Please, refrain from sharing forced locations with other players without advicing them to keep the default ``play.purevanilla.co`` address on their server list.
 
 ## DDoS mitigation
 All our providers have **DDoS mitigation services** which we are using, but **PureVanilla** has grown so popular certain attacks may be able to temporarily affect the connection to some of the proxies. These attacks are usually detected within minutes and the server is usually back online in a couple minutes. If it isn't, **relogging every 5 minutes** may improve your connection due to the **location resolution algorithm** described above.
