@@ -38,7 +38,7 @@ An atomic commit is one which makes exactly **one** change. We know it's not alw
 _instead of..._
 
 `wiki: Add new article and another new article`
-```
+```md
 + # New article
 + 
 + Your inspiring words
@@ -75,7 +75,7 @@ Your commit message is your commits personality. It should give a good idea of w
 
 Sometimes, even atomic commits can be big, and we appreciate the time you put into them! That being said, remember that your commit message is something most people will only scan over and not read in its entirety, and it should still convey what you changed well enough. To achieve this, keep the first line of your commit message to 80 characters at most! If you absolutely need to convey more information than that, use multiple lines for your commit message.
 
-```
+```md
 A short description of the change
 
 A detailed description of every little thing you changed, modified, improved and did to achieve what you set out to achieve!
@@ -88,7 +88,7 @@ A detailed description of every little thing you changed, modified, improved and
 
 Not all commits are the same. A change to how the site is fundamentally rendered should not blend in with a bunch of spelling mistake corrections. To distinguish between commits, we use a system called [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/). To sum it up, all your commit messages will look like this:
 
-```
+```md
 type: Short description
 
 A detailed description of every little thing you changed, modified, improved and did to achieve what you set out to achieve!
@@ -110,7 +110,7 @@ Another thing to note about Conventional Commits is that after `type`, parenthes
 
 This is what a good commit message might look like:
 
-```
+```md
 wiki(simply1): Add information about old map
 
 Added a download link and additional information about the simply1 map that reset on <date> as well as moving the seed information to the dedicated history section.
