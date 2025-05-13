@@ -4,6 +4,8 @@ The PureVanilla wiki is a [Hugo](https://gohugo.io/) site deployed using [Cloudf
 
 To contribute to the Wiki, you will need a [GitHub](https://github.com/signup) account. Once you have created yours using the link, proceed with the steps below.
 
+## Workspace setup
+
 1. Install `git`
 	* [→ Download here](https://git-scm.com/downloads) (Note: If you are using macOS, using homebrew is recommended. If you are using Linux, search your distributions package manager first.)
 2. Install the GitHub CLI
@@ -20,12 +22,32 @@ To contribute to the Wiki, you will need a [GitHub](https://github.com/signup) a
 6. Create a new branch with a name that is descriptive of the changes you plan to make. Run `git checkout -b <branch-name>`.
 7. Install Hugo server.
 	* [→ Installation instructions](https://gohugo.io/installation/)
-8. You are now ready to make changes! If you are new to using `git`, [this may be helpful to you](https://docs.github.com/en/get-started/using-git/about-git#basic-git-commands). The entirety of the wiki is written in American English. Please make sure your contribution aligns with this. You can find the Markdown source files for the wiki in the `content/` subdirectory. Also make sure to take a look at the [commit style guide](#commits).
+8. You are now ready to make changes! Check out the [Making Changes section](#making-changes). Also make sure to take a look at the [commit style guide](#commits).
 9. Once you are done making changes, you can test them locally by running `hugo server` in the root folder of the repository (`pv-wiki`). The page will be built and hosted locally on your machine. Use your web browser to navigate to the address given by Hugo inside your terminal. If building the page fails, you may need to install Go first.
 	* [→ Installation instructions for Go](https://go.dev/doc/install)
 10. Sync your changes to your fork of the PureVanilla wiki by running `git push`. If it is your first time pushing from a new branch, do `git push -u origin <branch-name>`.
 11. Finally, create a pull request by navigating to the website of your GitHub repository `https://github.com/<your-username>/pv-wiki/`, select the branch you worked on, and click "Contribute". You can now open a pull request that describes your changes, which will later be reviewed and, if everything is in order, merged into the real, official, PureVanilla wiki!
 12. Thanks for contributing!
+
+## Making changes
+Once you've [set up your workspace](#workspace-setup), you can get started editing the wiki. You can find the Markdown documents from which the wiki is built in the `content/` subdirectory of the project folder. Please use American English for contributions in English.
+
+### Markdown
+Markdown is a simplified way to write decorated text, such as bold text or headlines. If you've ever used symbols to make text appear **\*\*bold\*\*** or *\*italicized\** on messenger platforms like WhatsApp or on Discord, you already know some Markdown!
+
+If you need an overview on how to write Markdown, we recommend [this cheatsheet](https://www.markdownguide.org/cheat-sheet/).
+
+Markdown files have the `.md` file extension and you will find them in the wikis content directory. The folder structure of the `content/` folder reflects the hierarchy of articles. The `_index.md` file is the Markdown file corresponding to the page described by the directory it's in; for example, `services/compute/_index.md` describes the [Services/Compute](/services/compute/) page.
+
+### Hugo Book Theme
+This wiki is not *just* Markdown; after all, it is rendered *from* Markdown into the pretty page that you're looking at right now. This is thanks to [Hugo](https://gohugo.io/), a framework for building static web sites. [Hugo](https://gohugo.io/) also allows for theming, and these themes do not only affect how a page looks but can also offer tools for making prettier pages.
+
+We're using the [Hugo Book theme by Alex Shpak](https://github.com/alex-shpak/hugo-book), and it allows us to use some non-default page elements, such as tabbed content.
+
+You can check out example uses of these elements on the [Hugo Book demo page](https://hugo-book-demo.netlify.app/) and learn how they are made in the [source code of the demo page](https://github.com/alex-shpak/hugo-book/tree/main/exampleSite).
+
+### Git
+After every change you make, make sure to **commit** it using `git`! `git` is the versioning tool we use to manage the wiki, and you will need to **commit** your changes so you can submit a **pull request** to our ("upstream") repository, which is a request for us to approve your change and add it to the wiki. If you've never used `git` before, we recommend you check out [this guide on basic `git` commands](https://docs.github.com/en/get-started/using-git/about-git#basic-git-commands).
 
 ## Commits
 Commits are a milestone along the path of making changes to a codebase. Good commits are **atomic** and **descriptive**.
