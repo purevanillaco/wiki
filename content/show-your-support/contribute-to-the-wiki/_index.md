@@ -6,28 +6,123 @@ To contribute to the Wiki, you will need a [GitHub](https://github.com/signup) a
 
 ## Workspace setup
 
+{{< tabs "OS" >}}
+{{% tab "Windows" %}}
 1. Install `git`
-	* [→ Download here](https://git-scm.com/downloads) (Note: If you are using macOS, using homebrew is recommended. If you are using Linux, search your distributions package manager first.)
+	* [→ Download here](https://git-scm.com/downloads)
 2. Install the GitHub CLI
-	* [→ Installation instructions](https://github.com/cli/cli#installation)
+	* → Look for "GitHub CLI windows amd64 installer" [→ here](https://github.com/cli/cli/releases/latest), download and run it.
 3. Log into your GitHub account in the GitHub CLI.
-	1. Open the terminal on your OS.
-		* **On Windows:** Press `Windows+R` and enter `cmd`. Press the return key.
-		* **On macOS:** In Spotlight (`Cmd+Space`), search for Terminal and open.
-		* **On Linux:** Most distributions bundle a Terminal emulator. Use the search functionality of your Desktop environment to search for "Terminal".
+	1. Press `Windows+R` and enter `cmd`. Press the return key.
 	2. Type `gh auth login` and Enter. If `gh` is not found, you may need to log out and back in or restart your computer to finalize the installation of the GitHub CLI.
 	3. Follow the steps in your terminal.
-4. Fork and clone our GitHub repository by running `gh repo fork purevanillaco/wiki --fork-name pv-wiki --clone`.
-5. Move into the cloned repository by running `cd pv-wiki`.
-6. Create a new branch with a name that is descriptive of the changes you plan to make. Run `git checkout -b <branch-name>`.
+4. Fork and clone our GitHub repository by running
+```batch
+gh repo fork purevanillaco/wiki --fork-name pv-wiki --clone
+```
+5. Move into the cloned repository by running
+```batch
+cd pv-wiki
+```
+6. Create a new branch with a name that is descriptive of the changes you plan to make. Run
+```batch
+git checkout -b <branch-name>
+```
 7. Install Hugo server.
-	* [→ Installation instructions](https://gohugo.io/installation/)
+	* Hugo is best installed [→ with a package manager](https://gohugo.io/installation/windows/#package-managers). We recommend using `winget` or, if unavailable, [→ Chocolatey](https://chocolatey.org/install#install-step2).
 8. You are now ready to make changes! Check out the [Making Changes section](#making-changes). Also make sure to take a look at the [commit style guide](#commits).
 9. Once you are done making changes, you can test them locally by running `hugo server` in the root folder of the repository (`pv-wiki`). The page will be built and hosted locally on your machine. Use your web browser to navigate to the address given by Hugo inside your terminal. If building the page fails, you may need to install Go first.
-	* [→ Installation instructions for Go](https://go.dev/doc/install)
-10. Sync your changes to your fork of the PureVanilla wiki by running `git push`. If it is your first time pushing from a new branch, do `git push -u origin <branch-name>`.
+	* [→ Download here](https://go.dev/dl/): pick "Microsoft Windows" from the Featured Downloads and run the downloaded `.msi` file.
+10. Sync your changes to your fork of the PureVanilla wiki by running `git push`. If it is your first time pushing from a new branch, do
+```batch
+git push -u origin <branch-name>
+```
 11. Finally, create a pull request by navigating to the website of your GitHub repository `https://github.com/<your-username>/pv-wiki/`, select the branch you worked on, and click "Contribute". You can now open a pull request that describes your changes, which will later be reviewed and, if everything is in order, merged into the real, official, PureVanilla wiki!
 12. Thanks for contributing!
+{{% /tab %}}
+{{% tab "macOS" %}}
+1. We strongly recommend using `homebrew` for the software you will need to contribute to and locally test the wiki on your macOS machine. You can install it by opening your terminal (look for "terminal" in Spotlight, `Cmd+Space` to open Spotlight) and running the command [→ here](https://brew.sh/#install).
+2. With `homebrew` installed, installing all remaining software is much easier. Simply run
+```bash
+brew install git gh hugo go
+```
+3. Log into your GitHub account in the GitHub CLI by running
+```bash
+gh auth login
+```
+4. Fork and clone our GitHub repository by running
+```bash
+gh repo fork purevanillaco/wiki --fork-name pv-wiki --clone
+```
+5. Move into the cloned repository by running
+```bash
+cd pv-wiki
+```
+6. Create a new branch with a name that is descriptive of the changes you plan to make. Run
+```bash
+git checkout -b <branch-name>
+```
+8. You are now ready to make changes! Check out the [Making Changes section](#making-changes). Also make sure to take a look at the [commit style guide](#commits).
+9. Once you are done making changes, you can test them locally by running `hugo server` in the root folder of the repository (`pv-wiki`). The page will be built and hosted locally on your machine. Use your web browser to navigate to the address given by Hugo inside your terminal.
+10. Sync your changes to your fork of the PureVanilla wiki by running `git push`. If it is your first time pushing from a new branch, do
+```bash
+git push -u origin <branch-name>
+```
+11. Finally, create a pull request by navigating to the website of your GitHub repository `https://github.com/<your-username>/pv-wiki/`, select the branch you worked on, and click "Contribute". You can now open a pull request that describes your changes, which will later be reviewed and, if everything is in order, merged into the real, official, PureVanilla wiki!
+12. Thanks for contributing!
+{{% /tab %}}
+{{% tab "Linux" %}}
+1. To contribute, you will first need to install **git**, the **GitHub CLI**, **Go** and **Hugo** using your package manager of choice. Below are some options for popular distributions. If you are using a different distribution, use Google to locate the appropriate package name for your package repository.
+
+{{< tabs "distro" >}}
+{{% tab "apt - Debian/Ubuntu" %}}
+```bash
+sudo apt install git gh golang-go hugo
+```
+{{% /tab %}}
+{{% tab "dnf - Fedora" %}}
+```bash
+sudo dnf install git gh golang hugo
+```
+{{% /tab %}}
+{{% tab "pacman - Arch" %}}
+```bash
+sudo pacman -S git github-cli go hugo
+```
+{{% /tab %}}
+{{% tab "brew" %}}
+```bash
+brew install git gh hugo go
+```
+{{% /tab %}}
+{{< /tabs >}}
+
+2. Log into your GitHub account in the GitHub CLI using the terminal. Run
+```bash
+gh auth login
+```
+3. Fork and clone our GitHub repository by running
+```bash
+gh repo fork purevanillaco/wiki --fork-name pv-wiki --clone
+```
+4. Move into the cloned repository by running
+```bash
+cd pv-wiki
+```
+5. Create a new branch with a name that is descriptive of the changes you plan to make. Run
+```bash
+git checkout -b <branch-name>
+```
+6. You are now ready to make changes! Check out the [Making Changes section](#making-changes). Also make sure to take a look at the [commit style guide](#commits).
+7. Once you are done making changes, you can test them locally by running `hugo server` in the root folder of the repository (`pv-wiki`). The page will be built and hosted locally on your machine. Use your web browser to navigate to the address given by Hugo inside your terminal.
+8. Sync your changes to your fork of the PureVanilla wiki by running `git push`. If it is your first time pushing from a new branch, do
+```bash
+git push -u origin <branch-name>
+```
+9. Finally, create a pull request by navigating to the website of your GitHub repository `https://github.com/<your-username>/pv-wiki/`, select the branch you worked on, and click "Contribute". You can now open a pull request that describes your changes, which will later be reviewed and, if everything is in order, merged into the real, official, PureVanilla wiki!
+10. Thanks for contributing!
+{{% /tab %}}
+{{< /tabs >}}
 
 ## Making changes
 Once you've [set up your workspace](#workspace-setup), you can get started editing the wiki. You can find the Markdown documents from which the wiki is built in the `content/` subdirectory of the project folder. Please use American English for contributions in English.
