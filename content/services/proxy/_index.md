@@ -41,7 +41,7 @@ We continuously add and remove **locations** based on server popularity all arou
 | 🇸🇬 SG    | Southeast Asia | Singapore            | `sg.purevanilla.co`    | 1      | -       |
 
 {{% hint info %}}
-Nodes supporting anycast have their connection relayed all over the world by edge servers, meaning, even if you are not close to the node, when you connect to it, another (close to you) server will forward your location to it using datacenter speeds. For example, if you are on the US-West region, your connection will be relayed by a US-West server to the US-East server, ensuring the best ping possible to any given anycast-supported node.
+Nodes supporting anycast have their connection relayed all over the world by edge servers, meaning, even if you are not close to the node, when you connect to it, another (close to you) server will forward your location to it using datacenter speeds. For example, if you are on the US-West region, your connection will be relayed by an US-West server to the US-East server, ensuring the best ping possible to any given anycast-supported node.
 {{% /hint %}}
 
 You can consult their **status** and precise **location** from our [**status page**](https://purevanilla.co/status).
