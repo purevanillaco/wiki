@@ -23,7 +23,7 @@ Teleportation is a central feature of the **Cool Gamemode**. Below you’ll find
 Teleportation works across **different Cool instances**.
 {{% /hint %}}
 {{% hint warning %}}
-If you are not a **booster** or if you are not on your **main server**, you’ll enter **Visitor Mode**.
+If you are not a **booster** and you are not on your **main server**, you’ll enter **Visitor Mode**.
 
 * 🚫 Cannot break or place blocks
 * ✅ Can trade, use farms, and interact
