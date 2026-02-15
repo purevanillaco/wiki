@@ -1,5 +1,5 @@
 ---
-title: Chill Seeds
+title: Seeds
 ---
 
 ## About Seeds

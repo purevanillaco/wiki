@@ -1,5 +1,5 @@
 ---
-title: Simply Seeds
+title: Seeds
 ---
 
 ## About Seeds

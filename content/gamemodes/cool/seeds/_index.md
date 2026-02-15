@@ -1,5 +1,5 @@
 ---
-title: Cool Seeds
+title: Seeds
 ---
 
 ## About Seeds
