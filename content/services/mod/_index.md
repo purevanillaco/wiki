@@ -6,6 +6,17 @@ It requires **Fabric** for Minecraft **v26.1.2** or newer. It does not change ga
 
 ![Server list](images/server_list.png)
 
+<div style="display:flex;gap:1rem;justify-content:center;margin:1.5rem 0">
+{{< button href="https://modrinth.com/mod/purevanilla" >}}Download from Modrinth{{< /button >}}
+{{< button href="https://gitlab.com/purevanilla/mods/purevanilla/-/releases" >}}Download from GitLab{{< /button >}}
+</div>
+
+<p style="text-align:center"><strong>FabricAPI required</strong> — make sure FabricAPI is installed alongside this mod.</p>
+
+{{% hint info %}}
+**Note:** We released the PureVanilla mod recently and the Modrinth link might not be available while their moderation team reviews our submission.
+{{% /hint %}}
+
 ---
 
 <details>
