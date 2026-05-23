@@ -27,19 +27,17 @@ Open Prism Launcher and click **Add Instance**.
 
 In the instance creation dialog, select **Fabric** as the mod loader and choose **v26.1.2** as the version, then click **OK**.
 
-![Select Fabric](images/select_fabric.png)
-
 ### 3. Add FabricAPI
 
 Right-click your new instance and select **Edit**.
 
-![Edit instance](images/edit_instance.png)
-
 Go to the **Mods** tab, then click **Download mods**. Search for **Fabric API**, select it, and click **Download**.
+
+![Select Fabric](images/select_fabric.png)
 
 ### 4. Install the PureVanilla mod
 
-On the Mods screen, click **Open Folder** to open the mods directory.
+On the Mods screen, click **View Folder** to open the mods directory.
 
 Download the latest PureVanilla mod `.jar` from [GitLab releases](https://gitlab.com/purevanilla/mods/purevanilla/-/releases) and drop it into that folder.
 
