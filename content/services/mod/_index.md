@@ -13,10 +13,6 @@ It requires **Fabric** for Minecraft **v26.1.2** or newer. It does not change ga
 
 <p style="text-align:center"><strong>FabricAPI required</strong> — make sure FabricAPI is installed alongside this mod.</p>
 
-{{% hint info %}}
-**Note:** We released the PureVanilla mod recently and the Modrinth link might not be available while their moderation team reviews our submission.
-{{% /hint %}}
-
 ---
 
 <details>
