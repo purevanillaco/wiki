@@ -57,7 +57,7 @@ Furthermore, the land's ownership rotates among the members, thus preventing the
 | /lands ban [player]     | You ban the player from your land, so they can't enter your land.                                        |
 | /lands merge [land]     | Merge two lands                                                                                          |
 **Trusted,ban example**
-![](https://youtu.be/r9CPQWVQTy8?si)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/r9CPQWVQTy8?si=UEMoCO72v4qJZ3N1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 **Merged land**
 ![](https://youtu.be/fg845odxZ58?si)
 # 📋The menu and flags
