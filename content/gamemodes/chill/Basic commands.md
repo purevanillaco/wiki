@@ -1,0 +1,11 @@
+
+| Command             | Description                                                                                                                                                                                         |
+| ------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| /back               | Returns you to your previous death                                                                                                                                                                  |
+| /tpa [name]         | You send a request to the player to teleport to their location.                                                                                                                                     |
+| /tpahere [name]     | The opposite of the previous one, the player who accepts this request will appear on your site                                                                                                      |
+| /tpayes and /tpano: | Accept or decline the tp                                                                                                                                                                            |
+| /sethome [name]     | Sets a location for your teleportation point. It's recommended to alternate between your home and the spawn of your lands. By default, each player has 3. You can increase this by purchasing rank. |
+| /home [name]        | Tpa to home                                                                                                                                                                                         |
+| /bed                | Tpa to your berd                                                                                                                                                                                    |
+| /delhome            | Removes the home<br>                                                                                                                                                                                |
