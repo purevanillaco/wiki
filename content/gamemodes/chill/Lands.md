@@ -43,7 +43,7 @@ This menu displays your lands and those of other users where you have trust. It'
 | /lands setspawn      | You set the spawn point of your land                                                                                                                                                                                                                                                                                                                                                                               |
 | /lands spawn [name]  | You teleport to your own land or to other players' lands where you have trust.                                                                                                                                                                                                                                                                                                                                     |
 
-![](https://www.youtube.com/watch?v=DX8JH-Ply90)
+https://www.youtube.com/watch?v=DX8JH-Ply90
 # 🚮Land removal due to inactivity
 To keep the map clean, there's a land removal system. This takes several years to take effect. Don't worry if you have 30 days (720 hours) of playtime; it would take about 2.5-3 years of inactivity for it to activate.
 Furthermore, the land's ownership rotates among the members, thus preventing the land from being completely eliminated.
@@ -56,8 +56,10 @@ Furthermore, the land's ownership rotates among the members, thus preventing the
 | /lands untrust [player] | Did the player you trusted break down your door? Don't worry, you can remove the trust with this command |
 | /lands ban [player]     | You ban the player from your land, so they can't enter your land.                                        |
 | /lands merge [land]     | Merge two lands                                                                                          |
+
 **Trusted,ban example**
 https://youtu.be/r9CPQWVQTy8?si
+
 **Merged land**
 https://youtu.be/fg845odxZ58?si
 # 📋The menu and flags
