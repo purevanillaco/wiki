@@ -21,13 +21,14 @@ By default, you get 4 free chunks (including the initial one ). You can expand t
 4. [Menu](#4-menu)
     * [4.1 Player management](#41-player-management)
     * [4.2 Natural  Flags](#42-natural-flags)
-    * [4.3 Roles](43-Roles)
+    * [4.3 Roles](#43-roles)
          * [4.3.1  Action Flags](#431-action-flags)
          * [4.3.2 Management Flags](#432-management-flags)
-    * [4.4 Miscellaneous](44_miscellaneous)
-         * [4.4.1 Land chat](#441_land_chat)
-         * [4.4.2 Change  land color and hide land entry message](#442_change_land_color_and_hide_land_entry_message)
-5. [5. Bibliographic reference](#5_bibliographic_reference)
+    * [4.4 Miscellaneous](44-miscellaneous)
+         * [4.4.1 Land chat](#441-land-chat)
+         * [4.4.2 Change  land color and hide land entry message](#442-change-land-color-and-hide-land-entry-message)
+5. [Bibliographic reference](#5-bibliographic-reference)
+
 
 
 ---
@@ -165,7 +166,7 @@ Simply use the following: @lands [message]. To write to a land, do @lands [la
 
 {{<youtube KpXDUGcfklg>}}
 
-#### 4.4.2 Change  land color and hide land entry message
+#### 4.4.2 Change land color and hide land entry message
 While directly in the land area, you can type the command  /lands rename [name] . Below is a list of colors you can use. Example /lands rename &d&l Cherry
 
 ![color_example](images/color_example.png)
