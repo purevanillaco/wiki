@@ -31,7 +31,8 @@ It shows you a map of the area, where red is another player's land where you don
 
 **/lands**
 This menu displays your lands and those of other users where you have trust. It's important because you can execute almost all commands from within it. We'll delve deeper into this later.
-![[lands_menu.png]]
+
+![lands_menu_2](images/lands_menu.png)
 
 | Command              | Description                                                                                                                                                                                                                                                                                                                                                                                                        |
 | -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -135,16 +136,17 @@ Want to make plans with members of your lands? There's an option to speak exclus
 
 Simply use the following: @lands [message]. To write to a land, do @lands [land] [message]
 
-https://www.youtube.com/watch?v=KpXDUGcfklg
+{{<youtube KpXDUGcfklg>}}
+
 ## 🌈 Change the land color and hide land entry message
 While directly in the land area, you can type the command  /lands rename [name] . Below is a list of colors you can use. Example /lands rename &d&l Cherry
 
 ![color_example](images/color_example.png)
 
-{{<youtube IJH7UiJ77uM?s>}}
+{{<youtube IJH7UiJ77uM>}}
 
 If you're shy and want to hide the welcome to your land, you can do the following
-{{<youtube QSKchqb0crI?si>}}
+{{<youtube QSKchqb0crI>}}
 
 # Bibliographic reference
 
