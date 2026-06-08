@@ -26,7 +26,9 @@ By default, you get 4 free chunks (including the initial one ). You can expand t
 # 🚩- Basic lands - Creating a Lan
 **/lands maps**
 It shows you a map of the area, where red is another player's land where you don't have trust. Yellow is where you do have trust. And green is your land. It's especially useful for getting started and deciding where you want to place your land. Remember you can't create lands or claim chunks . Remember, **you cannot create a land or make a claim if you are near another land.** This can be solved with flags, which the other player (if they wish) can grant you.
-![[map_menu.png]]
+
+![menu_map](images/map_menu.png)
+
 **/lands**
 This menu displays your lands and those of other users where you have trust. It's important because you can execute almost all commands from within it. We'll delve deeper into this later.
 ![[lands_menu.png]]
@@ -60,19 +62,26 @@ Furthermore, the land's ownership rotates among the members, thus preventing the
 | /lands merge [land]     | Merge two lands                                                                                          |
 
 **Trusted,ban example**
+
 {{<youtube r9CPQWVQTy8>}}
 
-
 **Merged land**
+
 {{<youtube fg845odxZ58>}}
 
 # 📋The menu and flags
 As mentioned earlier, some commands can be executed directly from /lands. First, we select the land to edit, in this case "pizza".
-![[lands_menu_mark.png]]
+
+![menu_mark](images/lands_menu_mark.png)
+
 **We will encounter the following menu:**
-![[lands_menu_main.png]]
+
+![lands_menu_main](images/lands_menu_main.png)
+
 ## 🛂 Player management
-![[player_mana.png]]
+
+![player_mana](images/player_mana.png)
+
 **Members:** Land members, you can directly add or remove players there
 **Banned:** Well, banned players
 **Membership Request:** In this section you can enable or disable automatic player joins to your land; this is ideal if you want to create a public land and want everyone to be able to teleport there
@@ -93,15 +102,21 @@ There are currently 4 roles
 | Members    | Trusted  player                                                                           |
 | Untrusted  | Untrusted player                                                                          |
 | Custom rol | You can customize this role however you like; you create it by clicking the green button. |
-![[roles.png]]
+
+![roles](images/roles.png)
+
 Clicking on one of them will take you to the following flags menu: In this case, we will edit the Members flag.
-![[member_flag.png]]
+
+![member_flag](images/member_flag.png)
 ### ⛏️Action Flags
-![[action_flag.png]]
+
+![action_flag](images/action_flag.png)
+
 These are essentially the actions that the role can perform inside the land. The member role is fully active by default.
 ### 💼Management Flags
 This section is crucial as it allows you to grant players permissions to claim land, build, destroy, and perform other actions. It is NOT recommended to modify these settings in an untrusted role
-![[managament_flag.png]]
+
+![managament_flag](images/managament_flag.png)
 
 | Flag                        | Description                                                                                                                                                                                                                                                                                     |
 | --------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -123,10 +138,14 @@ Simply use the following: @lands [message]. To write to a land, do @lands [la
 https://www.youtube.com/watch?v=KpXDUGcfklg
 ## 🌈 Change the land color and hide land entry message
 While directly in the land area, you can type the command  /lands rename [name] . Below is a list of colors you can use. Example /lands rename &d&l Cherry
-![[color example.png]]
-https://youtu.be/IJH7UiJ77uM?s
+
+![color_example](images/color_example.png)
+
+{{<youtube IJH7UiJ77uM?s>}}
+
 If you're shy and want to hide the welcome to your land, you can do the following
 {{<youtube QSKchqb0crI?si>}}
+
 # Bibliographic reference
 
 Lands main page: [https://wiki.incredibleplugins.com/lands](https://wiki.incredibleplugins.com/lands)
