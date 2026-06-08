@@ -43,7 +43,9 @@ This menu displays your lands and those of other users where you have trust. It'
 | /lands setspawn      | You set the spawn point of your land                                                                                                                                                                                                                                                                                                                                                                               |
 | /lands spawn [name]  | You teleport to your own land or to other players' lands where you have trust.                                                                                                                                                                                                                                                                                                                                     |
 
-https://www.youtube.com/watch?v=DX8JH-Ply90
+{{<youtube DX8JH-Ply90>}}
+
+
 # 🚮Land removal due to inactivity
 To keep the map clean, there's a land removal system. This takes several years to take effect. Don't worry if you have 30 days (720 hours) of playtime; it would take about 2.5-3 years of inactivity for it to activate.
 Furthermore, the land's ownership rotates among the members, thus preventing the land from being completely eliminated.
@@ -58,10 +60,12 @@ Furthermore, the land's ownership rotates among the members, thus preventing the
 | /lands merge [land]     | Merge two lands                                                                                          |
 
 **Trusted,ban example**
-https://youtu.be/r9CPQWVQTy8?si
+{{<youtube r9CPQWVQTy8>}}
+
 
 **Merged land**
-https://youtu.be/fg845odxZ58?si
+{{<youtube fg845odxZ58>}}
+
 # 📋The menu and flags
 As mentioned earlier, some commands can be executed directly from /lands. First, we select the land to edit, in this case "pizza".
 ![[lands_menu_mark.png]]
@@ -122,7 +126,7 @@ While directly in the land area, you can type the command  /lands rename [name
 ![[color example.png]]
 https://youtu.be/IJH7UiJ77uM?s
 If you're shy and want to hide the welcome to your land, you can do the following
-![](https://youtu.be/QSKchqb0crI?si)
+{{<youtube QSKchqb0crI?si>}}
 # Bibliographic reference
 
 Lands main page: [https://wiki.incredibleplugins.com/lands](https://wiki.incredibleplugins.com/lands)
