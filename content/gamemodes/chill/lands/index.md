@@ -2,7 +2,7 @@
 title: Lands
 ---
 
-# 🏕️ Lands
+## 🏕️ Lands - Introduction
 
 The best way to start on the server is by creating a land, since griefing is allowed, it's the only way to protect yourself against it.
 
@@ -12,7 +12,7 @@ Each land can be used in all three dimensions (overworld, nether, and end). Ther
 
 By default, you get 4 free chunks (including the initial one). You can expand this with claimblock, which you get by [voting](https://purevanilla.co/vote) for the server. Each land can claim an infinite number of chunks, it all depends on your "claimblock" availability.
 
-# 🚩 Basic lands - Creating a Land
+## 🚩 Basic lands - Creating a Land
 
 **/lands maps**
 It shows you a map of the area, where red is another player's land where you don't have trust. Yellow is where you do have trust. And green is your land. It's especially useful for getting started and deciding where you want to place your land. Remember, **you cannot create a land or make a claim if you are near another land.** This can be solved with flags, which the other player (if they wish) can grant you.
@@ -38,12 +38,12 @@ This menu displays your lands and those of other users where you have trust. It'
 
 {{< youtube DX8JH-Ply90 >}}
 
-# 🚮 Land removal due to inactivity
+## 🚮 Land removal due to inactivity
 
 To keep the map clean, there's a land removal system. This takes several years to take effect. Don't worry if you have 30 days (720 hours) of playtime; it would take about 2.5-3 years of inactivity for it to activate.
 Furthermore, the land's ownership rotates among the members, thus preventing the land from being completely eliminated.
 
-# ✅ Trusted, ⛔ ban and 🖇️ merged lands
+## ✅ Trusted, ⛔ ban and 🖇️ merged lands
 
 | Command                 | Description                                                                                               |
 | ----------------------- | --------------------------------------------------------------------------------------------------------- |
@@ -60,7 +60,7 @@ Furthermore, the land's ownership rotates among the members, thus preventing the
 
 {{< youtube fg845odxZ58 >}}
 
-# 📋 The menu and flags
+## 📋 The menu and flags
 
 As mentioned earlier, some commands can be executed directly from /lands. First, we select the land to edit, in this case "pizza".
 
@@ -107,6 +107,9 @@ Clicking on one of them will take you to the following flags menu. In this case,
 
 ![Member flag](images/member_flag.png)
 
+**Create roles and promote users example:**
+{{< youtube amRtsPadHTc >}}
+
 ### ⛏️ Action Flags
 
 ![Action flags](images/action_flag.png)
@@ -130,9 +133,9 @@ These are essentially the actions that the role can perform inside the land. The
 | Edit Role Settings          | Edit Role Settings on land                                                                                                                                                                                                                                                                      |
 | Edit miscellaneous Settings | Edit miscellaneous Settings on land                                                                                                                                                                                                                                                             |
 
-# 🍄 Miscellaneous
+## 🍄 Miscellaneous
 
-## 💬 Land chat
+### 💬 Land chat
 
 Want to make plans with members of your lands? There's an option to speak exclusively with members of your lands.
 
@@ -140,7 +143,7 @@ Simply use the following: `@lands [message]`. To write to a specific land, use `
 
 {{< youtube KpXDUGcfklg >}}
 
-## 🌈 Change the land color and hide land entry message
+### 🌈 Change the land color and hide land entry message
 
 While directly in the land area, you can type the command `/lands rename [name]`. Below is a list of colors you can use. Example: `/lands rename &d&l Cherry`
 
@@ -151,8 +154,24 @@ While directly in the land area, you can type the command `/lands rename [name]`
 If you're shy and want to hide the welcome to your land, you can do the following:
 
 {{< youtube QSKchqb0crI >}}
+## Q&A about lands
+**1. My redstone components (like dispensers, pistons, etc.) self-destruct, and liquids aren't flowing either.**
+- That is part of the lands system, designed to prevent griefing. It usually triggers when redstone or fluids are placed in an unclaimed chunk that is adjacent to a claimed land.
 
-# Bibliographic reference
+**2. I can't create my first land; it tells me I don't have permission for land [name].**
+
+- You are probably using the wrong command; the correct command is /lands create [name]
+
+**3. I used the Land barrel(storage by default), but then I deleted it, is it possible to get it back?**
+  
+- It depends on whether you have previously run the `/lands delete` command; if you did, unfortunately, it cannot be recovered. If not, please watch this video on how to put again the storage. *Note: If you previously used `lands unclaim` or `lands unclaim all`, please claim a chunk(with the same land); so will allow you to proceed. Do not confuse the `lands delete` command with `lands unclaim all and /lands unclaim`.*
+{{< youtube XAhbahfOYmE >}}
+
+**4. My totem farm isn't working on a land**
+  
+- Unfortunately, only the land owner can use the farm totem (due to flag settings), and this cannot be changed; if you want to use it, you will have to ask the owner to unclaim that land.
+
+## Bibliographic reference
 
 Lands main page: [https://wiki.incredibleplugins.com/lands](https://wiki.incredibleplugins.com/lands)
 
