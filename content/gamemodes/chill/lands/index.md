@@ -34,7 +34,8 @@ This menu displays your lands and those of other users where you have trust. It'
 | /lands delete [name] | You eliminate the land                                                                                                                                                                            |
 | /lands view          | You can see both your land and other players' lands. Green (your land), red (another player's land without trust), yellow (land with trust).                                                      |
 | /lands setspawn      | You set the spawn point of your land                                                                                                                                                              |
-| /lands spawn [name]  | You teleport to your own land or to other players' lands where you have trust.                                                                                                                    |
+| /lands spawn [name]  | You teleport to your own land or to other players' lands where you have trust. 
+| /lands unstuck  | Teleport out of a land if you get stuck. |
 
 {{< youtube DX8JH-Ply90 >}}
 
@@ -170,6 +171,9 @@ If you're shy and want to hide the welcome to your land, you can do the followin
 **4. My totem farm isn't working on a land**
   
 - Unfortunately, only the land owner can use the farm totem (due to flag settings), and this cannot be changed; if you want to use it, you will have to ask the owner to unclaim that land.
+**5. I got stuck in a land and can't get out.**
+
+ Use the command ``/lands unstuck`` to leave the area. If it doesn't work, you can use /rtp.
 
 ## Bibliographic reference
 
