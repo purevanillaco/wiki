@@ -275,9 +275,11 @@ Rate =  10%  →  income ≈ 96,000
 
 ## Table of Contents [Shop World]
 
-1. [Creating Your Shop](#1-Creating-Your-Shop)
-2. [Basic Commands](#2-Basic-Commands)
-3. [Q&A Shop World](#3-Q&A-Shop-World)
+- [Table of Contents \[Shop World\]](#table-of-contents-shop-world)
+- [1. Creating Your Shop](#1-creating-your-shop)
+- [2. Upgrade Your Shop](#2-upgrade-your-shop)
+- [3. Basic Commands](#3-basic-commands)
+- [3. Q\&A Shop World](#3-qa-shop-world)
 
 
 ---
@@ -295,7 +297,20 @@ You can watch this video that gives a general explanation of everything related 
 The server has an interactive statistics page if you want to use it to get an overview of how the economy is moving.
 
 https://purevanilla.co/stats/cool
-## 2. Basic Commands
+## 2. Upgrade Your Shop
+If you think your shop is running out of space, don't worry, you can upgrade it to make it bigger; these upgrades cost Gems.
+
+| Tier  | Shop Size (blocks)|ChestShop Limit|Shop Portals|Price
+|-----------|--------|--------|--------|--------|
+|Tier I |23 |220|1|Free (Starter Tier)|
+|Tier II|35|280|1|300,000 ▲|
+|Tier III|51|340|4|400,000 ▲|
+|Tier IV|67|400|4|800,000 ▲|
+
+**Note:** The **Tier IV** is located in *The End* . You can see what the Tier IV is like by using /shop quiquelhappy
+
+
+## 3. Basic Commands
 | Command | Description|
 |-----------|--------|
 | /shop [name] | You visit a player shop
@@ -305,6 +320,7 @@ https://purevanilla.co/stats/cool
 | /shop buyenchantment/sellenchantment| Buy or sell enchantment at the best price. 
 | /shop walls [name]| Change the walls of your shop 
 | /shop floor [name]| Change the floor near the entrance (nether portal)
+| /shop settings| Upgrade or configure your shop
 ## 3. Q&A Shop World
 **1. I can't buy or sell because I'm muted (punishment for bad behavior).**
 
@@ -322,5 +338,6 @@ That is due to taxes.
 
 **4. I accidentally broke or placed a block, and it won't let me change the template.**
 
-Unfortunately, that is how it is; no one can change it. Please do not open a ticket regarding this. 
+You can fix it by using the `/shop fix` command or by accessing the `/shop settings` HUD. 
+
 
