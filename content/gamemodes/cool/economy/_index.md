@@ -300,9 +300,9 @@ https://purevanilla.co/stats/cool
 ## 2. Upgrade Your Shop
 If you think your shop is running out of space, don't worry, you can upgrade it to make it bigger; these upgrades cost Gems.
 
-| Tier  | Shop Size (blocks)|ChestShop Limit|Shop Portals|Price
+| Tier  | Shop Size (blocks)m²|ChestShop Limit|Shop Portals|Price
 |-----------|--------|--------|--------|--------|
-|Tier I |23 |220|1|Free (Starter Tier)|
+|Tier I |25 |220|1|Free (Starter Tier)|
 |Tier II|35|280|1|300,000 ▲|
 |Tier III|51|340|4|400,000 ▲|
 |Tier IV|67|400|4|800,000 ▲|
@@ -320,7 +320,10 @@ If you think your shop is running out of space, don't worry, you can upgrade it 
 | /shop buyenchantment/sellenchantment| Buy or sell enchantment at the best price. 
 | /shop walls [name]| Change the walls of your shop 
 | /shop floor [name]| Change the floor near the entrance (nether portal)
-| /shop settings| Upgrade or configure your shop
+| /shop fix | Reset the shop portal area, useful in case there is a block inside that you cannot break.
+| /shop upgrade | Upgrade your shop.
+| /shop settings| The same as before, but in a more interactive HUD.
+
 ## 3. Q&A Shop World
 **1. I can't buy or sell because I'm muted (punishment for bad behavior).**
 
