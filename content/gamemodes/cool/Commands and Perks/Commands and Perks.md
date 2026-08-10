@@ -35,6 +35,7 @@ Remember that ranks with perks can be obtained either with real money or by voti
 | /condense | It automatically converts items/blocks to their condensed form, for example, coal to coal block. |
 | /ec | Enderchest |
 | /grindstone | Virtual Grindstone |
+| /hat | Put an item on your head. |
 | /head | access to heads for decoration |
 | /loom | Virtual loom. |
 | /nightvision | Night vision effect |
