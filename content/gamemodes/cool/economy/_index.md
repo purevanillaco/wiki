@@ -300,7 +300,7 @@ https://purevanilla.co/stats/cool
 ## 2. Upgrade Your Shop
 If you think your shop is running out of space, don't worry, you can upgrade it to make it bigger; these upgrades cost Gems.
 
-| Tier  | Shop Size (blocks)m²|ChestShop Limit|Shop Portals|Price
+| Tier  | Shop Size (blocks)^2|ChestShop Limit|Shop Portals|Price
 |-----------|--------|--------|--------|--------|
 |Tier I |25 |220|1|Free (Starter Tier)|
 |Tier II|35|280|1|300,000 ▲|
