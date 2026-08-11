@@ -1,5 +1,5 @@
 ---
-title: Economy
+title: Economy and Shop World
 ---
 
 # Gem Economy
@@ -9,7 +9,7 @@ title: Economy
 
 ---
 
-## Table of Contents
+## Table of Contents [Economy]
 
 1. [What are Gems?](#1-what-are-gems)
 2. [How to Earn Gems](#2-how-to-earn-gems)
@@ -270,4 +270,77 @@ Rate =  10%  →  income ≈ 96,000
 | `◬ 1` | 1 coin |
 | `◭ 5` | 5 coins |
 | `▲ 12` | 12 coins |
+
+
+
+## Table of Contents [Shop World]
+
+- [Table of Contents \[Shop World\]](#table-of-contents-shop-world)
+- [1. Creating Your Shop](#1-creating-your-shop)
+- [2. Upgrade Your Shop](#2-upgrade-your-shop)
+- [3. Basic Commands](#3-basic-commands)
+- [3. Q\&A Shop World](#3-qa-shop-world)
+
+
+---
+## 1. Creating Your Shop
+To create your own shop, simply type `/shop`. It will display a HUD where you can choose the type of template for your shop; you can confirm your choice simply by breaking or placing a block. 
+
+
+Note: Once you do this, it is no longer possible to change the template.
+
+
+You can watch this video that gives a general explanation of everything related to that.
+
+{{< youtube no05-W9bz_Q >}}
+
+The server has an interactive statistics page if you want to use it to get an overview of how the economy is moving.
+
+https://purevanilla.co/stats/cool
+## 2. Upgrade Your Shop
+If you think your shop is running out of space, don't worry, you can upgrade it to make it bigger; these upgrades cost Gems.
+
+| Tier  | Shop Size (blocks)^2|ChestShop Limit|Shop Portals|Price
+|-----------|--------|--------|--------|--------|
+|Tier I |25 |220|1|Free (Starter Tier)|
+|Tier II|35|280|1|300,000 ▲|
+|Tier III|51|340|4|400,000 ▲|
+|Tier IV|67|400|4|800,000 ▲|
+
+**Note:** The **Tier IV** is located in *The End* . You can see what the Tier IV is like by using /shop quiquelhappy
+
+
+## 3. Basic Commands
+| Command | Description|
+|-----------|--------|
+| /shop [name] | You visit a player shop
+| /shop buy/sell| Looking for a specific item at the best price to buy or sell 
+| /shop buypotion/sellpotion | Buy or sell potions at the best price.
+| /shop buyspawner/sellspawner | Buy or sell spawner at the best price. 
+| /shop buyenchantment/sellenchantment| Buy or sell enchantment at the best price. 
+| /shop walls [name]| Change the walls of your shop 
+| /shop floor [name]| Change the floor near the entrance (nether portal)
+| /shop fix | Reset the shop portal area, useful in case there is a block inside that you cannot break.
+| /shop upgrade | Upgrade your shop.
+| /shop settings| The same as before, but in a more interactive HUD.
+
+## 3. Q&A Shop World
+**1. I can't buy or sell because I'm muted (punishment for bad behavior).**
+
+You can use `/quickshop amount` to buy something after left clicking the shop
+An example of that: 
+
+{{< youtube qSXXyWjqiNk >}}
+
+**2.I want to list an item in my shop for 20 gems, but I can't.**
+That is intentional on the part of the system; each item has a minimum price to maintain a healthy economy. This minimum price can be adjusted by the staff when necessary.
+
+**3. When someone buys an item from me for 100 gems (for example), I don't receive the full amount.**
+
+That is due to taxes.
+
+**4. I accidentally broke or placed a block, and it won't let me change the template.**
+
+You can fix it by using the `/shop fix` command or by accessing the `/shop settings` HUD. 
+
 
