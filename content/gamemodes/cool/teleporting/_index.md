@@ -17,6 +17,7 @@ Teleportation is a central feature of the **Cool Gamemode**. Below you’ll find
 | 🚫 `/tpignore <player>` | Ignore all teleport requests from a player.                                                                                                   |
 | 🎲 `/rtp`               | Randomly teleport in the overworld of your **current server**.                                                                                |
 | 🏠 `/home <name>`       | Teleport to a saved home.                                                                                                                     |
+| 🌀 `/warp <name>`       | Teleport to a player-created warp. See the [Warps guide](../warps) for details.                                                              |
 
 
 {{% hint info %}}
@@ -86,3 +87,5 @@ Even without free home slots, you can use **lands** as teleport targets.
 {{% hint success %}}
 Trusted or claimed lands give you extra teleport flexibility without requiring more home slots.
 {{% /hint %}}
+
+Players can also open up their land as a **public teleport point** by creating a warp — see the [Warps guide](../warps) for how to set one up and how access works.
