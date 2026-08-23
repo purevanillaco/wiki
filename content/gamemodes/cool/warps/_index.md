@@ -25,6 +25,7 @@ Creates a warp at your current location. Price is optional — if you omit it, t
 
 **Effects on roles**
 - The land's default/untrusted role has its **pick up items** and **attack monsters** permissions turned **OFF**. This stops random visitors from farming mobs or looting item drops at your public warp.
+- Anyone who was already trusted with Benefactor-or-higher role on the land *before* the warp existed is automatically marked as having unlocked it for free — they won't be asked to buy access they already effectively had.
 
 ### ✏️ Update a warp — `/updatewarp <name> <new-name> [price]`
 
@@ -56,13 +57,14 @@ Deletes one of your warps.
 
 Pays the warp's price to unlock Benefactor access on its land. You are trusted on the land (if not already) and given the "benefactor" role.
 
+Even **free** warps have to be unlocked this way — walking to or teleporting to a warp never grants access by itself, whether it's free or paid.
+
 {{% hint info %}}
 **Requirements**
-- The warp must not be free (free warps don't need unlocking).
 - You must not already own the warp.
 - You must not already hold Benefactor-or-higher role on the land.
 - You must not have already purchased access to this warp.
-- You need enough balance to cover the price.
+- You need enough balance to cover the price (free warps unlock instantly, no balance needed).
 {{% /hint %}}
 
 **Effects on roles**
@@ -96,13 +98,20 @@ If the warp has a price and you haven't unlocked it yet, you'll get a clickable 
 
 ### 📜 List warps — `/warps [page]`
 
-Shows a paginated, clickable list of every warp on the server.
+Shows a paginated, clickable list of every warp on the server. Click a warp's name to teleport to it.
+
+Some entries show extra icons before the name (hover over them in-game for a tooltip):
+
+| Icon | Meaning |
+|---|---|
+| 🔓 | You've already unlocked this warp (you own it, hold Benefactor-or-higher role on its land, or already bought access). |
+| 🌎 | This warp is on a different server than the one you're currently on. |
 
 ---
 
 ## 🔢 Warp limits
 
-Each player can only own a limited number of warps at once — **3** by default. Ask server staff if you need a higher limit.
+Each player can only own a limited number of warps at once — **10** by default. Ask server staff if you need a higher limit.
 
 ---
 
@@ -110,7 +119,7 @@ Each player can only own a limited number of warps at once — **3** by default.
 
 | Trigger | Effect |
 |---|---|
-| Warp created | Default (untrusted) role loses pickup-items and attack-monsters permissions on that land. |
+| Warp created | Default (untrusted) role loses pickup-items and attack-monsters permissions on that land. Players already trusted with Benefactor-or-higher role are marked as unlocked for free. |
 | Warp deleted | Default (untrusted) role regains pickup-items and attack-monsters permissions on that land. |
 | Access purchased | Buyer gains the land's "benefactor" role. |
 | Buyer untrusted from land | Buyer's Benefactor access to that land's warp is revoked. No refund — refunds are disabled on this server. |
