@@ -53,7 +53,7 @@ Deletes one of your warps.
 - The land's default/untrusted role has **pick up items** and **attack monsters** turned back **ON** (undoing what creation disabled).
 - All players who had Benefactor access to this warp have that access revoked. Refunds are **disabled** on this server, so no money moves when this happens.
 
-### 💰 Unlock a warp — `/buy warp <name>`
+### 💰 Unlock a warp — `/buywarp <name>`
 
 Pays the warp's price to unlock Benefactor access on its land. You are trusted on the land (if not already) and given the "benefactor" role.
 
